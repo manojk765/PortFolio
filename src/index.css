@@ -1,0 +1,183 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 50% 98%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 262 75% 38%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 218 83% 44%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 199 89% 62%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 262 75% 38%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 262 75% 38%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 218 83% 44%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 199 89% 62%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 262 75% 38%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border selection:bg-portfolio-purple-dark selection:text-white;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  .glass-morphism {
+    @apply backdrop-blur-xl bg-white/10 border border-white/20 shadow-lg;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-portfolio-purple-dark via-portfolio-blue-dark to-portfolio-teal bg-clip-text text-transparent;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold mb-10 text-gradient;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+  }
+  
+  .button-primary {
+    @apply bg-gradient-to-r from-portfolio-purple-dark to-portfolio-blue-dark 
+           text-white px-6 py-3 rounded-lg font-medium 
+           transition-all duration-300 hover:shadow-lg hover:scale-105
+           focus:outline-none focus:ring-2 focus:ring-portfolio-purple-light;
+  }
+  
+  .skill-bar {
+    @apply h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700;
+  }
+  
+  .skill-progress {
+    @apply h-full bg-gradient-to-r from-portfolio-purple-dark to-portfolio-teal;
+  }
+
+  .social-icon-link {
+    @apply transition-transform duration-300 hover:scale-125 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-full;
+  }
+
+  .flip-card {
+    @apply relative w-full h-full transition-transform duration-700 transform-gpu preserve-3d;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    @apply absolute w-full h-full backface-hidden;
+  }
+
+  .flip-card-back {
+    @apply transform-gpu rotate-y-180;
+  }
+
+  .flip-card-container:hover .flip-card {
+    @apply rotate-y-180;
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
