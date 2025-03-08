@@ -70,7 +70,7 @@ export default function Footer() {
               className="button-primary inline-flex items-center gap-2 transform transition-all duration-300 hover:scale-105"
               asChild
             >
-              <a href="#" download="Koneti_Manoj_Resume.pdf">
+              <a href="/Koneti_Manoj.pdf" download="Koneti_Manoj.pdf">
                 <Download className="h-4 w-4" /> Resume
               </a>
             </Button>
