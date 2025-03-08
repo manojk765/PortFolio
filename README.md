@@ -38,8 +38,8 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/portfolio.git
-   cd portfolio
+   git clone https://github.com/manojk765/PortFolio.git
+   cd PortFolio
    ```
 
 2. Install dependencies
