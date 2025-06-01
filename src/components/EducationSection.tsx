@@ -76,7 +76,7 @@ export default function EducationSection() {
   return (
     <section id="education" className="py-16 md:py-24">
       <div className="section-container">
-        <h2 className="section-title text-center">My Education</h2>
+        <h2 className="section-title text-center">MY Education</h2>
 
         <div className="relative mt-12">
           {/* Timeline line */}

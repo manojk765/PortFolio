@@ -48,7 +48,7 @@ export default function CommunitySection() {
   return (
     <section id="community" className="bg-muted/30 dark:bg-muted/10 py-16 md:py-24">
       <div className="section-container">
-        <h2 className="section-title text-center">Community Involvement</h2>
+        <h2 className="section-title text-center">CommunitY Involvement</h2>
         
         <div className="max-w-3xl mx-auto mt-12">
           {communityProjects.map((project, index) => (

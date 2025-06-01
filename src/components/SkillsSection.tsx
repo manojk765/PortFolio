@@ -121,7 +121,7 @@ export default function SkillsSection() {
   return (
     <section id="skills" className="py-16 md:py-24">
       <div className="section-container">
-        <h2 className="section-title text-center">My Skills</h2>
+        <h2 className="section-title text-center">MY Skills</h2>
         <div className={`mt-12 transition-all duration-700 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}>

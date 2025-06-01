@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { ExternalLink, Github, ArrowUpRight, FilterX } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -36,12 +35,12 @@ export default function ProjectsSection() {
       description: "Your Health Companion",
       longDescription:
         "A mobile-first healthcare app built to assist users in maintaining a healthy lifestyle through personalized workout and nutrition plans. Features include exercise tracking, meal suggestions, recipe planning, and progress monitoring. This app is designed for users who are looking to achieve their fitness goals efficiently.",
-      image:
-        "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2063&q=80",
+      image: 
+        "https://images.unsplash.com/photo-1535914254981-b5012eebbd15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       demoLink: "https://github.com/manojk765/FitLife-HealthCareApp-Java",   
       codeLink: "https://github.com/manojk765/FitLife-HealthCareApp-Java",   
       tags: ["Java", "XML", "OOPs",],
-      category: "major",
+      category: "course",
       features: [
         "Interactive quiz for user engagement",
         "Healthy recipie recommendations",
@@ -59,8 +58,8 @@ export default function ProjectsSection() {
         "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       demoLink: "https://manojk765.github.io/Color-Threads/",   
       codeLink: "https://github.com/manojk765/Color-Threads",   
-      tags: ["NextJS", "Stripe", "TailwindCSS", "Supabase"],
-      category: "major",
+      tags: ["HTML", "CSS", "JavaScript"],
+      category: "minor",
       features: [
         "Interactive and responsive UI made for mobile first design",
         "Responsive product catalog with filtering",
@@ -94,7 +93,7 @@ export default function ProjectsSection() {
       longDescription:
         "A React-based application that allows users to search for images by keywords. Integrated with the Unsplash API, the app fetches and displays relevant images based on the user's input, providing a seamless search experience. Users can browse through high-quality images and download them as needed.",
       image:
-        "https://images.unsplash.com/photo-1497005367839-6e852de72767?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2063&q=80",
+      "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       demoLink: "https://manojk765.github.io/React-Image-Generator/",   
       codeLink: "https://github.com/manojk765/React-Image-Generator",   
       tags: ["React", "UnsplashAPI", "TailwindCSS"],
@@ -113,7 +112,7 @@ export default function ProjectsSection() {
       longDescription:
         "An AI-powered image generator that uses models available on Huggingface to create images based on user prompts. This tool allows users to input descriptive text and generate corresponding AI-generated images, offering creative possibilities for a variety of use cases such as art, design, and conceptual work.",
       image:
-        "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2063&q=80",
+        "https://images.unsplash.com/photo-1633311905139-7b6088a69e33?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       demoLink: "https://manojk765.github.io/AI-Image-Generator/",   
       codeLink: "https://github.com/manojk765/AI-Image-Generator",   
       tags: ["React", "Huggingface", "AI", "TailwindCSS"],
@@ -144,6 +143,26 @@ export default function ProjectsSection() {
         "Image details fetched from NASA API",
         "Optimized for responsive design"
       ]
+    },
+    {
+      id: "TeamCode",
+      title: "Realtime Collaborative Code Editor",
+      description: "Live collaborative coding tool using React and Socket.IO",
+      longDescription:
+        "A browser-based code editor designed for real-time collaboration. Users can join unique rooms and code together with instant synchronization. Built with React and Socket.IO, the editor allows seamless communication across clients, offering syntax highlighting, theme customization, and a smooth user experience. Ideal for online interviews, pair programming, and virtual classrooms.",
+      image:
+        "https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      demoLink: "https://teamcode-v5ia.onrender.com/",
+      codeLink: "https://github.com/manojk765/TeamCode",
+      tags: ["React", "Node.js", "Socket.IO", "CodeMirror", "Docker"],
+      category: "course",
+      features: [
+        "Real-time Code Sync: Users see live updates as others type in a shared room.",
+        "Room-based Sessions: Join or create rooms via unique IDs to collaborate privately.",
+        "Syntax Highlighting: CodeMirror integration supports clean, readable code editing.",
+        "No Login Required: Quick access with no sign-up needed.",
+        "Containerized Deployment: Fully dockerized setup for easy hosting and scalability."
+      ]
     }
   ];
   
@@ -155,10 +174,30 @@ export default function ProjectsSection() {
   // Clear filter function
   const clearFilter = () => setActiveFilter("all");
 
+  // Get category badge variant
+  const getCategoryBadgeVariant = (category) => {
+    switch(category) {
+      case "major": return "default";
+      case "minor": return "secondary";
+      case "course": return "outline";
+      default: return "secondary";
+    }
+  };
+
+  // Get category display name
+  const getCategoryDisplayName = (category) => {
+    switch(category) {
+      case "major": return "Major";
+      case "minor": return "Minor";
+      case "course": return "Course";
+      default: return "Project";
+    }
+  };
+
   return (
     <section id="projects" className="py-16 md:py-24 bg-muted/30 dark:bg-muted/10">
       <div className="section-container">
-        <h2 className="section-title text-center">My Projects</h2>
+        <h2 className="section-title text-center">MY ProJects</h2>
         <p className="text-muted-foreground text-center mt-4 max-w-2xl mx-auto">
           A showcase of my recent work, highlighting my skills in web development and UI/UX design
         </p>
@@ -169,6 +208,7 @@ export default function ProjectsSection() {
               <TabsTrigger value="all">All Projects</TabsTrigger>
               <TabsTrigger value="major">Major Projects</TabsTrigger>
               <TabsTrigger value="minor">Minor Projects</TabsTrigger>
+              <TabsTrigger value="course">Course Projects</TabsTrigger>
             </TabsList>
           </Tabs>
           
@@ -177,7 +217,7 @@ export default function ProjectsSection() {
               variant="outline" 
               size="sm" 
               onClick={clearFilter} 
-              className="flex items-center"
+              className="flex items-center hover:bg-primary/10 transition-colors duration-300"
             >
               <FilterX className="h-4 w-4 mr-1" />
               Clear Filter
@@ -194,44 +234,64 @@ export default function ProjectsSection() {
               }`}
               style={{ transitionDelay: `${index * 200}ms` }}
             >
-              <Card className="h-full overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-xl">
-                <div className="relative overflow-hidden h-48">
+              <Card className="group h-full overflow-hidden border-0 bg-card/50 backdrop-blur-sm shadow-sm hover:shadow-lg transition-all duration-500 ease-out hover:border-primary/20 hover:bg-card/80">
+                <div className="relative overflow-hidden h-48 bg-gradient-to-br from-primary/5 to-secondary/5">
                   <img 
                     src={project.image} 
                     alt={project.title} 
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    className="w-full h-full object-cover transition-all duration-700 ease-out group-hover:scale-105 group-hover:brightness-110"
                   />
-                  <div className="absolute top-2 right-2">
-                    <Badge variant={project.category === "major" ? "default" : "secondary"}>
-                      {project.category === "major" ? "Major" : "Minor"}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute top-3 right-3 transform translate-y-1 opacity-90 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                    <Badge 
+                      variant={getCategoryBadgeVariant(project.category)}
+                      className="backdrop-blur-md bg-background/80 border-primary/20"
+                    >
+                      {getCategoryDisplayName(project.category)}
                     </Badge>
                   </div>
                 </div>
                 
-                <CardContent className="flex-grow p-6">
-                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                  <p className="text-muted-foreground mb-4">{project.description}</p>
+                <CardContent className="flex-grow p-6 space-y-4">
+                  <div className="space-y-2">
+                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors duration-300">
+                      {project.title}
+                    </h3>
+                    <p className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300">
+                      {project.description}
+                    </p>
+                  </div>
                   
-                  <div className="flex flex-wrap gap-2 mb-4">
+                  <div className="flex flex-wrap gap-2 pt-2">
                     {project.tags.slice(0, 3).map((tag, i) => (
-                      <Badge key={i} variant="outline" className="text-xs">
+                      <Badge 
+                        key={i} 
+                        variant="outline" 
+                        className="text-xs hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 cursor-default"
+                      >
                         {tag}
                       </Badge>
                     ))}
                     {project.tags.length > 3 && (
-                      <Badge variant="outline" className="text-xs">
+                      <Badge 
+                        variant="outline" 
+                        className="text-xs bg-muted/50 hover:bg-primary/10 transition-all duration-300 cursor-default"
+                      >
                         +{project.tags.length - 3}
                       </Badge>
                     )}
                   </div>
                 </CardContent>
                 
-                <CardFooter className="px-6 py-4 border-t flex justify-between dark:border-gray-700">
+                <CardFooter className="px-6 py-4 border-t border-border/50 flex justify-between dark:border-gray-700/50 bg-card/30 group-hover:bg-card/60 transition-all duration-300">
                   <Dialog>
                     <DialogTrigger asChild>
-                      <Button variant="ghost" className="text-primary hover:text-primary/80 p-0">
+                      <Button 
+                        variant="ghost" 
+                        className="text-primary hover:text-primary/80 hover:bg-primary/10 p-0 transition-all duration-300 group/btn"
+                      >
                         Details
-                        <ArrowUpRight className="ml-1 h-4 w-4" />
+                        <ArrowUpRight className="ml-1 h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
                       </Button>
                     </DialogTrigger>
                     <DialogContent className="sm:max-w-2xl">
@@ -276,13 +336,13 @@ export default function ProjectsSection() {
                         </div>
                         
                         <div className="flex space-x-3 mt-6">
-                          <Button asChild>
+                          <Button asChild className="hover:shadow-md transition-shadow duration-300">
                             <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
                               <ExternalLink className="h-4 w-4 mr-2" />
                               Live Demo
                             </a>
                           </Button>
-                          <Button variant="outline" asChild>
+                          <Button variant="outline" asChild className="hover:bg-primary/10 hover:border-primary/50 transition-all duration-300">
                             <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
                               <Github className="h-4 w-4 mr-2" />
                               View Code
@@ -298,17 +358,17 @@ export default function ProjectsSection() {
                       href={project.demoLink} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-primary hover:text-primary/80"
+                      className="text-primary hover:text-primary/80 hover:bg-primary/10 p-2 rounded-full transition-all duration-300 hover:scale-110 group/link"
                     >
-                      <ExternalLink className="h-5 w-5" />
+                      <ExternalLink className="h-4 w-4 transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
                     </a>
                     <a 
                       href={project.codeLink} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-muted-foreground hover:text-foreground"
+                      className="text-muted-foreground hover:text-foreground hover:bg-muted/50 p-2 rounded-full transition-all duration-300 hover:scale-110 group/link"
                     >
-                      <Github className="h-5 w-5" />
+                      <Github className="h-4 w-4 transition-transform duration-300 group-hover/link:rotate-12" />
                     </a>
                   </div>
                 </CardFooter>

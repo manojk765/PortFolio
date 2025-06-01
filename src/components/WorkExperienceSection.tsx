@@ -47,7 +47,7 @@ export default function WorkExperienceSection() {
   return (
     <section id="experience" className="py-16 md:py-24">
       <div className="section-container">
-        <h2 className="section-title text-center">Work Experience</h2>
+        <h2 className="section-title text-center">Work ExPerience</h2>
 
         <Tabs defaultValue="motioncut" value={activeTab} onValueChange={setActiveTab} className="w-full mt-12">
           <TabsList className="mx-auto flex w-full max-w-md justify-center mb-10">
