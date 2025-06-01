@@ -163,7 +163,26 @@ export default function ProjectsSection() {
         "No Login Required: Quick access with no sign-up needed.",
         "Containerized Deployment: Fully dockerized setup for easy hosting and scalability."
       ]
-    }
+    },
+    {
+      "id": "infinityquestacademy",
+      "title": "Infinity Quest Academy UI",
+      "description": "Responsive school website built with HTML, CSS, and JavaScript",
+      "longDescription": "Infinity Quest Academy is a responsive school web application designed using only HTML, CSS, and Vanilla JavaScript. This project showcases essential frontend development skills and provides an informative platform for educational institutions. It includes multiple pages detailing curriculum, pedagogy, infrastructure, and more, all structured for easy navigation and user engagement.",
+      "image": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      "demoLink": "https://manojk765.github.io/InfinityQuestAcademy_School-UI-App/",
+      "codeLink": "https://github.com/manojk765/InfinityQuestAcademy_School-UI-App",
+      "tags": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      "category": "course",
+      "features": [
+        "Multi-page layout including curriculum, pedagogy, and infrastructure sections",
+        "Responsive design compatible with various devices",
+        "Interactive navigation menu for seamless user experience",
+        "Clean and organized code structure for easy maintenance",
+        "Informative content presentation tailored for educational institutions"
+      ]
+    },
+
   ];
   
   // Filter projects based on active filter
