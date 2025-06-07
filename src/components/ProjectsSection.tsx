@@ -182,6 +182,27 @@ export default function ProjectsSection() {
         "Informative content presentation tailored for educational institutions"
       ]
     },
+    {
+      "id": "wattwise",
+      "title": "WattWise - Smart Energy Management App",
+      "description": "Award-winning energy management application built with React Native and Firebase",
+      "longDescription": "WattWise is a comprehensive energy management application developed by Team Greenovators, which won the Second Prize at Vidyut 2025 (Amrita Amritapuri). Built with React Native and Firebase, this app helps users track their energy consumption, optimize usage patterns, and save on electricity bills through intelligent monitoring and personalized recommendations. The app features real-time analytics, social features, and a user-friendly interface designed to promote sustainable energy consumption.",
+      "image": "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "demoLink": "https://github.com/manojk765/Wattwise",
+      "codeLink": "https://github.com/manojk765/Wattwise",
+      "tags": ["React Native", "Firebase", "TypeScript", "Expo", "Energy Management", "Sustainability"],
+      "category": "major",
+      "features": [
+        "Real-time energy consumption monitoring and tracking",
+        "Interactive analytics and usage pattern visualization",
+        "Personalized energy-saving recommendations",
+        "Social features including leaderboard and achievements",
+        "Dark/Light theme support for better user experience",
+        "Firebase integration for secure data management",
+        "Responsive and intuitive user interface",
+        "Sustainable energy consumption insights"
+      ]
+    }
 
   ];
   
@@ -196,8 +217,8 @@ export default function ProjectsSection() {
   // Get category badge variant
   const getCategoryBadgeVariant = (category) => {
     switch(category) {
-      case "major": return "default";
-      case "minor": return "secondary";
+      case "major": return "outline";
+      case "minor": return "outline";
       case "course": return "outline";
       default: return "secondary";
     }
