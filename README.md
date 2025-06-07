@@ -169,10 +169,6 @@ The built project can be deployed to any static hosting service, including:
 - AWS S3
 - Firebase Hosting
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgements
 
 - [shadcn/ui](https://ui.shadcn.com/) for the component library
