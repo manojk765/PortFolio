@@ -30,118 +30,24 @@ export default function ProjectsSection() {
       ]
     },
     {
-      id: "fitlife",
-      title: "FitLife",
-      description: "Your Health Companion",
-      longDescription:
-        "A mobile-first healthcare app built to assist users in maintaining a healthy lifestyle through personalized workout and nutrition plans. Features include exercise tracking, meal suggestions, recipe planning, and progress monitoring. This app is designed for users who are looking to achieve their fitness goals efficiently.",
-      image: 
-        "https://images.unsplash.com/photo-1535914254981-b5012eebbd15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      demoLink: "https://github.com/manojk765/FitLife-HealthCareApp-Java",   
-      codeLink: "https://github.com/manojk765/FitLife-HealthCareApp-Java",   
-      tags: ["Java", "XML", "OOPs",],
-      category: "course",
-      features: [
-        "Interactive quiz for user engagement",
-        "Healthy recipie recommendations",
-        "Workout recommendations",
-        "BMI Calculator and timer to track workout times",
-      ]
-    },
-    {
-      id: "colorthreads",
-      title: "Color Threads",
-      description: "E-commerce Website for Fashion Brand",
-      longDescription:
-        "An e-commerce platform designed for a fashion brand, offering a fully responsive product catalog, shopping cart, and payment integration using Stripe. The platform also includes a user account system with order history, and an admin dashboard for managing inventory and sales. It provides a seamless shopping experience for customers.",
-      image:
-        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      demoLink: "https://manojk765.github.io/Color-Threads/",   
-      codeLink: "https://github.com/manojk765/Color-Threads",   
-      tags: ["HTML", "CSS", "JavaScript"],
-      category: "minor",
-      features: [
-        "Interactive and responsive UI made for mobile first design",
-        "Responsive product catalog with filtering",
-        "Shopping cart with local storage persistence",
-      ]
-    },
-    {
-      id: "taskmanager",
-      title: "Task Manager",
-      description: "Productivity tool with Firebase integration",
-      longDescription:
-        "A task management application designed to help users organize and prioritize tasks using a simple Kanban board interface. Integrated with Firebase, it allows users to create, edit, and track tasks, all while persisting data. Additionally, users can set deadlines, track progress, and analyze task completion trends.",
-      image:
-        "https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      demoLink: "https://manojk765.github.io/react-to-do-app/",   
-      codeLink: "https://github.com/manojk765/react-to-do-app",   
-      tags: ["React", "Firebase", "LocalStorage","JavaScript"],
-      category: "minor",
-      features: [
-        "Task Creation: Allow users to add tasks with a title, description, and due date.",
-        "Task Editing: Users can edit tasks to update their details (title, description).",
-        "Task Deletion: Ability to delete tasks once they are no longer needed.",
-        "Task Completion: Mark tasks as completed and move them to a completed list.",
-        "Integrated with FireBase for storage"
-      ]
-    },
-    {
-      id: "imagegenerator",
-      title: "React Image Generator",
-      description: "Generates images based on user input using Unsplash API",
-      longDescription:
-        "A React-based application that allows users to search for images by keywords. Integrated with the Unsplash API, the app fetches and displays relevant images based on the user's input, providing a seamless search experience. Users can browse through high-quality images and download them as needed.",
-      image:
-      "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      demoLink: "https://manojk765.github.io/React-Image-Generator/",   
-      codeLink: "https://github.com/manojk765/React-Image-Generator",   
-      tags: ["React", "UnsplashAPI", "TailwindCSS"],
-      category: "minor",
-      features: [
-        "User input-based image search",
-        "High-quality image fetching from Unsplash API",
-        "Responsive design",
-        "Optimized search with quick results"
-      ]
-    },
-    {
-      id: "aiimagegenerator",
-      title: "AI Image Generator",
-      description: "Generates AI images using Huggingface models",
-      longDescription:
-        "An AI-powered image generator that uses models available on Huggingface to create images based on user prompts. This tool allows users to input descriptive text and generate corresponding AI-generated images, offering creative possibilities for a variety of use cases such as art, design, and conceptual work.",
-      image:
-        "https://images.unsplash.com/photo-1633311905139-7b6088a69e33?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      demoLink: "https://manojk765.github.io/AI-Image-Generator/",   
-      codeLink: "https://github.com/manojk765/AI-Image-Generator",   
-      tags: ["React", "Huggingface", "AI", "TailwindCSS"],
-      category: "minor",
-      features: [
-        "AI-generated images from descriptive text",
-        "Supports various Huggingface models",
-        "Responsive design for a seamless experience",
-        "Real-time generation of creative assets",
-      ]
-    },
-    {
-      id: "nasaapod",
-      title: "NASA APOD",
-      description: "Fetches NASA's Astronomy Picture of the Day",
-      longDescription:
-        "A simple application that displays NASA's Astronomy Picture of the Day (APOD) along with a description. Integrated with NASA's public API, it fetches and displays a new image daily. The app provides a visually appealing way for users to explore space through stunning NASA images.",
-      image:
-        "https://www.wbs.ac.uk/sites/wbs2020/cache/file/6E097BF2-DC2A-C606-597DAB7236AD4F70.jpg",
-      demoLink: "https://manojk765.github.io/NASA-APOD/",  
-      codeLink: "https://github.com/manojk765/NASA-APOD",   
-      tags: ["React", "NASA API", "TailwindCSS"],
-      category: "minor",
-      features: [
-        "Fetches NASA's Astronomy Picture of the Day (APOD)",
-        "Daily updated image and description",
-        "User-friendly UI with a focus on visuals",
-        "Image details fetched from NASA API",
-        "Optimized for responsive design"
+      "id": "wattwise",
+      "title": "WattWise - Smart Energy Management App",
+      "description": "Award-winning energy management application built with React Native and Firebase",
+      "longDescription": "WattWise is a comprehensive energy management application developed by Team Greenovators, which won the Second Prize at Vidyut 2025 (Amrita Amritapuri). Built with React Native and Firebase, this app helps users track their energy consumption, optimize usage patterns, and save on electricity bills through intelligent monitoring and personalized recommendations. The app features real-time analytics, social features, and a user-friendly interface designed to promote sustainable energy consumption.",
+      "image": "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "demoLink": "https://github.com/manojk765/Wattwise",
+      "codeLink": "https://github.com/manojk765/Wattwise",
+      "tags": ["React Native", "Firebase", "TypeScript", "Expo", "Energy Management", "Sustainability"],
+      "category": "major",
+      "features": [
+        "Real-time energy consumption monitoring and tracking",
+        "Interactive analytics and usage pattern visualization",
+        "Personalized energy-saving recommendations",
+        "Social features including leaderboard and achievements",
+        "Dark/Light theme support for better user experience",
+        "Firebase integration for secure data management",
+        "Responsive and intuitive user interface",
+        "Sustainable energy consumption insights"
       ]
     },
     {
@@ -165,6 +71,103 @@ export default function ProjectsSection() {
       ]
     },
     {
+      id: "fitlife",
+      title: "FitLife",
+      description: "Your Health Companion",
+      longDescription:
+        "A mobile-first healthcare app built to assist users in maintaining a healthy lifestyle through personalized workout and nutrition plans. Features include exercise tracking, meal suggestions, recipe planning, and progress monitoring. This app is designed for users who are looking to achieve their fitness goals efficiently.",
+      image: 
+        "https://images.unsplash.com/photo-1535914254981-b5012eebbd15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      demoLink: "https://github.com/manojk765/FitLife-HealthCareApp-Java",   
+      codeLink: "https://github.com/manojk765/FitLife-HealthCareApp-Java",   
+      tags: ["Java", "XML", "OOPs",],
+      category: "course",
+      features: [
+        "Interactive quiz for user engagement",
+        "Healthy recipie recommendations",
+        "Workout recommendations",
+        "BMI Calculator and timer to track workout times",
+      ]
+    },
+    {
+      id: "taskmanager",
+      title: "Task Manager",
+      description: "Productivity tool with Firebase integration",
+      longDescription:
+        "A task management application designed to help users organize and prioritize tasks using a simple Kanban board interface. Integrated with Firebase, it allows users to create, edit, and track tasks, all while persisting data. Additionally, users can set deadlines, track progress, and analyze task completion trends.",
+      image:
+        "https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      demoLink: "https://manojk765.github.io/react-to-do-app/",   
+      codeLink: "https://github.com/manojk765/react-to-do-app",   
+      tags: ["React", "Firebase", "LocalStorage","JavaScript"],
+      category: "minor",
+      features: [
+        "Task Creation: Allow users to add tasks with a title, description, and due date.",
+        "Task Editing: Users can edit tasks to update their details (title, description).",
+        "Task Deletion: Ability to delete tasks once they are no longer needed.",
+        "Task Completion: Mark tasks as completed and move them to a completed list.",
+        "Integrated with FireBase for storage"
+      ]
+    },
+    {
+      id: "aiimagegenerator",
+      title: "AI Image Generator",
+      description: "Generates AI images using Huggingface models",
+      longDescription:
+        "An AI-powered image generator that uses models available on Huggingface to create images based on user prompts. This tool allows users to input descriptive text and generate corresponding AI-generated images, offering creative possibilities for a variety of use cases such as art, design, and conceptual work.",
+      image:
+        "https://images.unsplash.com/photo-1633311905139-7b6088a69e33?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      demoLink: "https://manojk765.github.io/AI-Image-Generator/",   
+      codeLink: "https://github.com/manojk765/AI-Image-Generator",   
+      tags: ["React", "Huggingface", "AI", "TailwindCSS"],
+      category: "minor",
+      features: [
+        "AI-generated images from descriptive text",
+        "Supports various Huggingface models",
+        "Responsive design for a seamless experience",
+        "Real-time generation of creative assets",
+      ]
+    },
+    {
+      id: "imagegenerator",
+      title: "React Image Generator",
+      description: "Generates images based on user input using Unsplash API",
+      longDescription:
+        "A React-based application that allows users to search for images by keywords. Integrated with the Unsplash API, the app fetches and displays relevant images based on the user's input, providing a seamless search experience. Users can browse through high-quality images and download them as needed.",
+      image:
+      "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      demoLink: "https://manojk765.github.io/React-Image-Generator/",   
+      codeLink: "https://github.com/manojk765/React-Image-Generator",   
+      tags: ["React", "UnsplashAPI", "TailwindCSS"],
+      category: "minor",
+      features: [
+        "User input-based image search",
+        "High-quality image fetching from Unsplash API",
+        "Responsive design",
+        "Optimized search with quick results"
+      ]
+    },
+    {
+      id: "nasaapod",
+      title: "NASA APOD",
+      description: "Fetches NASA's Astronomy Picture of the Day",
+      longDescription:
+        "A simple application that displays NASA's Astronomy Picture of the Day (APOD) along with a description. Integrated with NASA's public API, it fetches and displays a new image daily. The app provides a visually appealing way for users to explore space through stunning NASA images.",
+      image:
+        "https://www.wbs.ac.uk/sites/wbs2020/cache/file/6E097BF2-DC2A-C606-597DAB7236AD4F70.jpg",
+      demoLink: "https://manojk765.github.io/NASA-APOD/",  
+      codeLink: "https://github.com/manojk765/NASA-APOD",   
+      tags: ["React", "NASA API", "TailwindCSS"],
+      category: "minor",
+      features: [
+        "Fetches NASA's Astronomy Picture of the Day (APOD)",
+        "Daily updated image and description",
+        "User-friendly UI with a focus on visuals",
+        "Image details fetched from NASA API",
+        "Optimized for responsive design"
+      ]
+    },
+    {
       "id": "infinityquestacademy",
       "title": "Infinity Quest Academy UI",
       "description": "Responsive school website built with HTML, CSS, and JavaScript",
@@ -183,28 +186,24 @@ export default function ProjectsSection() {
       ]
     },
     {
-      "id": "wattwise",
-      "title": "WattWise - Smart Energy Management App",
-      "description": "Award-winning energy management application built with React Native and Firebase",
-      "longDescription": "WattWise is a comprehensive energy management application developed by Team Greenovators, which won the Second Prize at Vidyut 2025 (Amrita Amritapuri). Built with React Native and Firebase, this app helps users track their energy consumption, optimize usage patterns, and save on electricity bills through intelligent monitoring and personalized recommendations. The app features real-time analytics, social features, and a user-friendly interface designed to promote sustainable energy consumption.",
-      "image": "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "demoLink": "https://github.com/manojk765/Wattwise",
-      "codeLink": "https://github.com/manojk765/Wattwise",
-      "tags": ["React Native", "Firebase", "TypeScript", "Expo", "Energy Management", "Sustainability"],
-      "category": "major",
-      "features": [
-        "Real-time energy consumption monitoring and tracking",
-        "Interactive analytics and usage pattern visualization",
-        "Personalized energy-saving recommendations",
-        "Social features including leaderboard and achievements",
-        "Dark/Light theme support for better user experience",
-        "Firebase integration for secure data management",
-        "Responsive and intuitive user interface",
-        "Sustainable energy consumption insights"
+      id: "colorthreads",
+      title: "Color Threads",
+      description: "E-commerce Website for Fashion Brand",
+      longDescription:
+        "An e-commerce platform designed for a fashion brand, offering a fully responsive product catalog, shopping cart, and payment integration using Stripe. The platform also includes a user account system with order history, and an admin dashboard for managing inventory and sales. It provides a seamless shopping experience for customers.",
+      image:
+        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      demoLink: "https://manojk765.github.io/Color-Threads/",   
+      codeLink: "https://github.com/manojk765/Color-Threads",   
+      tags: ["HTML", "CSS", "JavaScript"],
+      category: "minor",
+      features: [
+        "Interactive and responsive UI made for mobile first design",
+        "Responsive product catalog with filtering",
+        "Shopping cart with local storage persistence",
       ]
     }
-
-  ];
+];
   
   // Filter projects based on active filter
   const filteredProjects = activeFilter === "all" 
